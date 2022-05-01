@@ -1,0 +1,10 @@
+DROP SCHEMA IF EXISTS nums CASCADE;
+
+CREATE SCHEMA IF NOT EXISTS nums;
+
+DROP TABLE IF EXISTS nums.sumnum;
+
+CREATE TABLE IF NOT EXISTS nums.sumnum (
+    num INT,
+    res INT
+);
